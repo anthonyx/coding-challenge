@@ -1,0 +1,40 @@
+.group {
+  padding: 20px;
+  border-bottom: solid 1px;
+  border-color: #D3D3D3;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.group-list h1 {
+  border-bottom: solid 1px;
+  border-color: #D3D3D3;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+}
+
+.group-icon {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 50px;
+}
+
+.group-text {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.group-text:hover {
+  text-decoration: underline;
+  text-decoration-color: #D3D3D3;
+}
+
+.group-text .group-item {
+  display: inline;
+}
+
+.group-text .group-completed {
+  display: block;
+  font-weight: normal;
+  color: #D3D3D3;
+}

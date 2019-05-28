@@ -1,0 +1,27 @@
+.task-item {
+  padding: 25px;
+  border-bottom: solid 1px;
+  border-color: #D3D3D3;
+}
+
+.task-item .task-name{
+  display: inline-block;
+  vertical-align: middle;
+  height: 25px;
+}
+
+.task-item .task-icon {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+  text-align: center;
+}
+
+.task-item .task-name.locked {
+  color: #D3D3D3;
+}
+
+.task-item .task-name.complete {
+  text-decoration: line-through;
+}
